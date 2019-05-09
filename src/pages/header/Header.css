@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.menu-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.text-button:hover {
+    color: grey;
+}
+
+.register {
+    border-left: 80px;
+    border-right: 40px;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background: orange;
+    font-family: "Open Sans", "sans-serif";
+}
+
+.register:hover {
+    background: peachpuff;
+}
+
+.Ascend-logo {
+    width: 82px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
