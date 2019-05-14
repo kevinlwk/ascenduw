@@ -16,22 +16,22 @@ export default class Header extends Component {
                         </li>
                         <li className="content">
                             <NavLink exact to="/" className="text-button">
-                                Home
+                                <h1>Home</h1>
                             </NavLink>
                         </li>
                         <li className="content">
                             <NavLink exact to="/about-us" className="text-button">
-                                About Us
+                                <h1>About Us</h1>
                             </NavLink>
                         </li>
                         <li className="content">
                             <NavLink exact to="/contact-us" className="text-button">
-                                Contact Us
+                                <h1>Contact Us</h1>
                             </NavLink>
                         </li>
                         <li className="content">
                             <NavLink exact to="/register" className="register">
-                                Register
+                                <h1>Register</h1>
                             </NavLink>
                         </li>
                     </ul>

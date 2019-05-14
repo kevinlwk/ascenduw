@@ -1,0 +1,18 @@
+.landing {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.landing-img {
+    float: left;
+    height: 80vh;
+    width: 100%;
+}
+
+.landing-details {
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
