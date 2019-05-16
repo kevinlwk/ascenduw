@@ -4,7 +4,7 @@ import './NameForm.css';
 export default class NameForm extends Component {
     constructor(props) {
         super(props);
-        this.state = {value: 'Enter your email address'};
+        this.state = {value: ''};
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -25,7 +25,7 @@ export default class NameForm extends Component {
             <div className="submit-bar">
                 <form onSubmit={this.handleSubmit}>
                     <label>
-                        <input type="text" value={this.state.value} onChange={this.handleChange} />
+                        <input type="text" placeholder="Enter your email address" value={this.state.value} onChange={this.handleChange} />
                     </label>
                     <input type="submit" value="Submit" />
                 </form>

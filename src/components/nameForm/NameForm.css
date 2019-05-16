@@ -29,8 +29,7 @@ input[type=submit] {
     float: right;
 }
 
-input[type=submit]::after {
-    content: "";
+input[type=text]::after {
     display: table;
     clear: both;
 }
