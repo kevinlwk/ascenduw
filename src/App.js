@@ -6,10 +6,12 @@ import Landing from './pages/landing/Landing.js';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+        <header className="App-header">
           <Header></Header>
-          <Landing></Landing>
-      </header>
+        </header>
+        <body>
+            <Landing></Landing>
+        </body>
     </div>
   );
 }

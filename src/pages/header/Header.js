@@ -7,7 +7,7 @@ export default class Header extends Component {
     render() {
         return (
             <HashRouter>
-                <div>
+                <div className="header">
                     <ul className="menu-ul">
                         <li className="logo">
                             <NavLink exact to="/">

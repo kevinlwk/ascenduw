@@ -1,18 +1,47 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans:300')
+}
+
 .landing {
     position: relative;
     text-align: center;
     color: black;
+    max-width: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 80vh;
+    overflow: hidden;
 }
 
 .landing-img {
     float: left;
-    height: 80vh;
-    width: 100%;
+    height: 1020px;
+    width: 3018px;
 }
 
 .landing-details {
     position: absolute;
+    overflow: hidden;
     top: 40vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#inspirational-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    line-height: 60px;
+    color: white;
+}
+
+#mission-statement {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+#submit-button {
+    padding: 30px;
+}
+
