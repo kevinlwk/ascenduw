@@ -16,7 +16,7 @@ export default class NameForm extends Component {
 
     handleSubmit(event) {
         alert('Thanks, you will hear back from us soon!');
-        // insert submit clause for the name
+        // insert submit clause for the name --> add to newsletter list (some mysql list or smth)
         event.preventDefault();
     }
 

@@ -10,13 +10,13 @@ export default class Header extends Component {
                 <img src={landing} alt="Landing" className="landing-img"/>
                 <div className="landing-details">
                     <div id="inspirational-text" className="landing-text">
-                        Some inspirational shit
+                        Connect. Inspire. Ascend.
                     </div>
                     <div id="mission-statement" className="landing-text">
-                        We focus on some other cool shit tbc later.
+                        Sign up to learn more.
                     </div>
                     <div id="submit-button" className="landing-text">
-                        <NameForm></NameForm>
+                        <NameForm/>
                     </div>
                 </div>
             </div>
