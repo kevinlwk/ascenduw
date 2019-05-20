@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans:300')
+}
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    max-height: 100vh;
+    min-height: 500px;
+    width: 100vw;
+}
+
+.sponsor-bracket {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sponsor-gold {
+    width: 80%;
+}
+
+.sponsor-image {
+    display: block;
+    margin: 10px 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+}
+
+#deloitte {
+    max-height: 20px;
+}
+
+#loblaws {
+    max-height: 20px;
+}
+
+#fasken {
+    max-height: 20px;
+}
+
+#rbc {
+    max-height: 40px;
+}
+
+#ey {
+    max-height: 40px;
+}
+
+#pwc {
+    max-height: 40px;
+}
+
+#cassels-brock {
+    max-height: 40px;
+}
+
+#stikeman-elliot {
+    max-height: 20px;
+}
+
+#dyversity {
+    max-height: 40px;
+}
+
+#shivanche {
+    max-height: 40px;
+}
+
+#ten-thousand-coffees {
+    max-height: 50px;
+}

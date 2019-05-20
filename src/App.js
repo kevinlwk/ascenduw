@@ -3,6 +3,7 @@ import './App.css';
 import Header from './pages/header/Header.js';
 import Landing from './pages/landing/Landing.js';
 import ValueProp from './pages/landing/ValueProp.js';
+import Sponsors from './pages/landing/Sponsors.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <body>
             <Landing/>
             <ValueProp/>
+            <Sponsors/>
         </body>
     </div>
   );

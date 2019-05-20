@@ -3,7 +3,7 @@ import './Landing.css';
 import NameForm from '../../components/nameForm/NameForm.js'
 import landing from './landing.jpeg';
 
-export default class Header extends Component {
+export default class Landing extends Component {
     render() {
         return (
             <div className="landing">
