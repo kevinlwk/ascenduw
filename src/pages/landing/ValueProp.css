@@ -6,15 +6,20 @@
 .value-prop {
     display: flex;
     flex-direction: row;
-    width: 80vw;
-    height: 500px;
+    width: 90vw;
+    height: 95vh;
     padding-top: 50px;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     align-content: center;
     justify-items: flex-start;
     justify-content: space-between;
-    text-align: center
+    text-align: center;
+}
+
+.detail {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 img {
@@ -27,5 +32,6 @@ h2 {
 }
 
 .blurb {
+    text-align: justify;
     font-family: "Open Sans", sans-serif;
 }

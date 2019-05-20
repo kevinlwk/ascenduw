@@ -1,5 +1,13 @@
+html {
+    background-color: #282828;
+}
+
+body {
+    background: white;
+}
+
 header {
     top: 0;
-    position: absolute;
+    position: fixed;
     z-index: 10;
 }

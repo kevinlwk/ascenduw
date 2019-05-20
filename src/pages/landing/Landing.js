@@ -10,7 +10,7 @@ export default class Header extends Component {
                 <img src={landing} alt="Landing" className="landing-img"/>
                 <div className="landing-details">
                     <div id="inspirational-text" className="landing-text">
-                        Connect. Inspire. Ascend.
+                        Looking to expand your connections?
                     </div>
                     <div id="mission-statement" className="landing-text">
                         Sign up to learn more.

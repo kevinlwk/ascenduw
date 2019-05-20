@@ -7,7 +7,7 @@
     width: 100vw;
     height: 70px;
     padding-top: 5px;
-    background: white;
+    background: #282828;
 }
 
 .menu-ul {
@@ -45,12 +45,14 @@
     padding: 5px 20px;
     font-size: 7px;
     text-decoration: none;
-    color: black;
-    background: white;
+    color: white;
+    background: #282828;
 }
 
 .text-button:hover {
-    color: grey;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    color: #e2e2e2;
 }
 
 .register {
@@ -59,7 +61,7 @@
     vertical-align: bottom;
     border-left: 80px;
     border-right: 40px;
-    padding: 3px 5px 20px 20px;
+    padding: 4px 5px 20px 20px;
     font-size: 7px;
     text-decoration: none;
     color: white;
@@ -68,7 +70,7 @@
 }
 
 .register:hover {
-    background: peachpuff;
+    background: darkorange;
 }
 
 .Ascend-logo {
