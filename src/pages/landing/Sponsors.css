@@ -32,6 +32,10 @@ h1 {
     width: 80%;
 }
 
+#sponsor-silver {
+    width: 30%;
+}
+
 .sponsor-image {
     display: block;
     margin: 10px 30px;
